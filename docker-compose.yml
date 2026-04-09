@@ -19,4 +19,3 @@ services:
       - .:/srv/jekyll
     environment:
       - JEKYLL_ENV=development
-    entrypoint: ["bundle", "exec", "jekyll", "serve", "--watch", "--force_polling", "--port=8080", "--host=0.0.0.0", "--livereload"]
